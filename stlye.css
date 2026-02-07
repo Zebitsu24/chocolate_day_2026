@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle, #2a002a, #000);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-container {
+  width: 95%;
+  max-width: 420px;
+  text-align: center;
+}
+
+h1 {
+  color: #ff4d6d;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: rgba(0,0,0,0.6);
+  border: 2px solid #ff4d6d;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 0 20px #ff4d6d;
+}
+
+.mission {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.highlight {
+  color: #ffb3c6;
+  font-weight: bold;
+}
+
+.score {
+  margin: 15px 0;
+  font-size: 1.2rem;
+}
+
+#chocoBtn {
+  background: linear-gradient(135deg, #ff4d6d, #ff8fab);
+  border: none;
+  border-radius: 50px;
+  padding: 15px 25px;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#chocoBtn:active {
+  transform: scale(0.95);
+}
+
+#chocoBtn:hover {
+  box-shadow: 0 0 15px #ff8fab;
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #ffccd5;
+}
+
+.hidden {
+  display: none;
+}
